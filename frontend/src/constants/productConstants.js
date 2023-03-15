@@ -1,0 +1,10 @@
+// action file that basically solves the triggered changes in the form of plain js objects
+
+export const PRODUCT_LIST_REQUEST="PRODUCT_LIST_REQUEST";
+export const PRODUCT_LIST_SUCCESS="PRODUCT_LIST_SUCCESS";
+export const PRODUCT_LIST_FAIL="PRODUCT_LIST_FAIL";
+
+export const PRODUCT_DETAILS_REQUEST="PRODUCT_LIST_REQUEST";
+export const PRODUCT_DETAILS_SUCCESS="PRODUCT_LIST_SUCCESS";
+export const PRODUCT_DETAILS_FAIL="PRODUCT_LIST_FAIL";
+
