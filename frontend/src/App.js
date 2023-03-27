@@ -56,7 +56,6 @@ function App() {
           <button onClick={closeMenu}>x</button>
           <ul>
             <li>
-
             </li>
             <li>
               <a href="/">➡️ Jumpsuits</a>

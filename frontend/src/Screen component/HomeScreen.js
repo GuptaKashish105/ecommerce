@@ -26,7 +26,7 @@ export default function HomeScreen() {
       // '{data}' but not 'data' because we have to fetch data from web api in the form of key value pair
 
       try {
-        const response = await axios.get("http://localhost:4000/api/products/");
+        const response = await axios.get("http://localhost:1500/api/products/");
         setError(null);
         setProducts(response.data);
       } catch (err) {
