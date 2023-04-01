@@ -12,7 +12,6 @@ const addToCart = (id, quantity) => async (dispatch, getState) => {
                 image: data.image,
                 price: data.price,
                 countInStock: data.countInStock,
-                quantity
         }});
         const {cart : { cartItems } } = getState();
         Cookies.set("cartItems", JSON.stringify(cartItems));
